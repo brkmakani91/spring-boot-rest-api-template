@@ -54,10 +54,10 @@ public class Task {
     public void setDone(boolean done) {
         this.done = done;
     }
-    public LocalDateTime getDate() {
+    public LocalDateTime getCreatedAt() {
         return createdAt;
     }
-    public void setDate(LocalDateTime createdAt) {
+    public void setCreatedAt(LocalDateTime createdAt) {
         this.createdAt = createdAt;
     }
 }
