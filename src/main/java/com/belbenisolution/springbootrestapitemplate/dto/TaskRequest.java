@@ -10,5 +10,5 @@ public record TaskRequest(
 
         @Size(max = 500)
         String description,
-        boolean done
+        Boolean done
 ) {}

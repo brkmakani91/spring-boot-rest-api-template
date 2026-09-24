@@ -17,7 +17,7 @@ public class TaskMapper {
     public void updateEntity(Task task, TaskRequest request) {
         task.setTitle(request.title());
         task.setDescription(request.description());
-        task.setDone(request.done());
+        task.setDone(Boolean.TRUE.equals(request.done()));
     }
 
     public TaskResponse toResponse(Task task) {
